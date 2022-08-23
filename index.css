@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    color:  white;
+    background: rgb(120,120,200);
+}
+
+body{
+    background-image: url(colebackground.png);
+    background-attachment: fixed;
+}
+
+.censo__supreme{
+    height: 80vh;
+}
+
+.censo__maint{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.censo__title__container{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mari__logo{
+    justify-self: end;
+    width: 13vw;
+    height: 20vh;
+    position: absolute;
+}
+
+.censo__title{
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 7.6vw;
+}
+
+.sub{
+    color: white;
+    font-size: 2.4vw;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 60px;
+}
+
+.censo__explicacion{
+    margin-bottom: 60px;
+    color: white;
+    font-size: 1.4vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    text-align: center;
+}
+
+.videos__text{
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 2vw;
+    margin-bottom: 60px;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+.videos__text span{
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.videos__text:hover{
+    transform: translateY(-20px);
+    color: rgb(100,250,200);
+}
+
+.formulario__scroll{
+    padding: 10px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 2vw;
+    margin-bottom: 60px;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+.formulario__scroll span{
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.formulario__scroll:hover{
+    transform: translateY(-20px);
+    color: rgb(100,250,200);
+}
+
+.links__container{
+    margin: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.yt__3dlogo{
+    transition-duration: .2s;
+    height: 12vh;
+    width: 10vw;
+}
+
+
+.face__logo{
+    transition-duration: .2s;
+    height: 12vh;
+    width: 8vw;
+}
+
+.tik__logo{
+    transition-duration: .2s;
+    height: 12vh;
+    width: 8vw;
+}
+
+.yt__3dlogo:hover{
+    transform: translateY(-20px);
+    color: rgb(100,250,200);
+}
+
+.face__logo:hover{
+    transform: translateY(-20px);
+    color: rgb(100,250,200);
+}
+
+.tik__logo:hover{
+    transform: translateY(-20px);
+    color: rgb(100,250,200);
+}
+
+.form__container{
+    text-align: center;
+}
+
+.formulario{
+    margin-top: 20vh;
+    height: 100vh;
+    width: 60vw;
+}
+
+.text__container{
+    margin: 10vh;
+    text-align: center;
+}
+
+.videos__linked{
+    font-family: 'Bree serif';
+    color: white;
+    font-size: 2vw;
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-size: cover;
+    }
+    .censo__supreme{
+        height: 150vh;
+    }
+    .censo__maint{
+        height: 150vh;
+    }
+
+    .censo__title__container{
+        display: flex;
+        height: 75vh;
+    }
+
+    .censo__title{
+        margin: auto;
+        font-size: 20vw;
+    }
+    .mari__logo{
+        visibility: hidden;
+    }
+    .sub{
+        padding-bottom: 5vh;
+        font-size: 8vw;
+    }
+    .censo__explicacion{
+        font-size: 6vw;
+        margin: 2vw 2vh;
+    }
+    .nav__container{
+        display: flex;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .videos__text{
+        font-size: 5vw;
+        margin: auto;
+    }
+    .formulario__scroll{
+        font-size: 5vw;
+        margin: auto;
+    }
+
+    .form__container{
+        margin-top: 30vh;
+    }
+
+    .formulario{
+        height: 90vh;
+        width: 100vw;
+    }
+
+    .videos__linked{
+        font-size: 9vw;
+    }
+
+    .links__container{
+        display: flex;
+        justify-content: space-around;
+        height: 20vh;
+    }
+
+    .yt__3dlogo{
+        transition-duration: .2s;
+        height: 12vh;
+        width: 20vw;
+        margin: 20px;
+    }
+
+    .face__logo{
+        transition-duration: .2s;
+        height: 12vh;
+        width: 20vw;
+        margin: 20px;
+    }
+    .tik__logo{
+        transition-duration: .2s;
+        height: 12vh;
+        width: 20vw;
+        margin: 20px;
+    }
+
+}
+
